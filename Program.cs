@@ -1,13 +1,13 @@
 ﻿
 using DesafioPOO.Models;
 
-// TODO: Realizar os testes com as classes Nokia e Iphone
+
 
 Smartphone iphone = new Iphone("819123456", "13 PRO MAX", "0122456774", 128);
 Console.WriteLine("\n");
 Console.WriteLine("Smartphone Iphone");
 Console.WriteLine($"Especificações do Smartphone\nModelo: {iphone.Modelo}\nMemoria RAM: {iphone.Memoria}GB");
-iphone.Ligar();
+iphone.ReceberLigacao();
 iphone.InstalarAplicativo("Instagram");
 
 Console.WriteLine("\n");
